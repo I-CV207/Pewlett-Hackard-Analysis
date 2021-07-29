@@ -2,10 +2,10 @@
 
 ## Overview of the analysis
 
-The purpose of the following analysis is to create a data base that holds the information of the employees from ther company, we are using some initial CSV files that have the most relevant information, from there a few querries will be programmed to get the table of retiring personnel by title and employee eligible for the mentorship programin order to provide reliable information for the upcoming **"silver tsunami"**.
+The purpose of the following analysis is to create a database that holds the information of the employees from ther company, we are using some initial CSV files that have the most relevant information, from there a few querries will be programmed to get the tables of retiring personnel by title and employee eligible for the mentorship programin order to provide reliable information for the upcoming **"silver tsunami"**.
 
 ## Results
-From the obtained queries there are a few things worth mention are:
+From the obtained queries, a few things worth mention are:
 
 - In the table, *retirment_titles* there are 133,776 records, however such records have duplicates on their employe numbers as they are grouped by their title due to the fact that throught the years some have recieved promotions.
 
@@ -33,7 +33,7 @@ Provide high-level responses to the following questions, then provide two additi
 
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-There are 90,398 people who are retiring, the main roles that have to be taking care of are Senior Engineers (29,414) which represents 33% of people retiring, in second place Senior Staff (28,254) whith 31% and in third place Engineers (14,222) with 16%, these three combined make the 80% of the total count of retiring people and therefore are the most critical positions to cover. 
+There are 90,398 people who are retiring, the main roles that have to be taking care of are Senior Engineers (29,414) which represents 33% of people retiring, in second place Senior Staff (28,254) with 31% and in third place Engineers (14,222) with 16%, these three combined make the 80% of the total count of retiring people and therefore are the most critical positions to cover. 
 
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
@@ -44,4 +44,4 @@ Some additional queries can be obtained to provide more insight, some of proposa
 
 1. Employees who are retiring by department in order to see the proportion of each one as it was done with the *retiring_titles* table.
 2. List of employees without the people who are retiring, which basically is the opposite of the table *unique_titles*, this way we can know how many people are remaining and get the proportion against the people who are retiring.
-3. List of employees without the people who are retiring, grouped by their title, to know the proportion of remaining personnel by title, this one could be used to compare it with *retiring_titles* an therefor have more information of wich positions are more critical to cover first.
+3. List of employees without the people who are retiring, grouped by their title, to know the proportion of remaining personnel by title, this one could be used to compare it with *retiring_titles* an therefore have more information of wich positions are more critical to cover first based on a coverage percentage.
